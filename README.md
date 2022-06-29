@@ -1,6 +1,6 @@
 # cake
 Cape manipulation for MCP, Optifine Sources Required!
 ## running
-`node .`
+`npm i && node .`
 ## leave credit
 please
