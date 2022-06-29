@@ -1,9 +1,9 @@
 # cake
 Cape manipulation for MCP, Optifine Sources Required!  
-<a href="https://github.com/Spu7Nix/SPWN-language/blob/master/LICENSE">
+<a href="https://github.com/1Sh0wL1ght/cake/blob/master/LICENSE">
     <img alt="GitHub license" src="https://img.shields.io/github/license/Spu7Nix/SPWN-language">
 </a>  
-<a href="https://github.com/Spu7Nix/SPWN-language/stargazers">
+<a href="https://github.com/1Sh0wL1ght/cake/stargazers">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/Spu7Nix/SPWN-language">
 </a>  
 
