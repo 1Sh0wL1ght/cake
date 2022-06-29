@@ -9,5 +9,5 @@ Cape manipulation for MCP, Optifine Sources Required!
 ## running
 edit `usernames.json` to your liking then run  
 `npm i && node .`
-## leave credit
-please
+## How to usee
+Learn java or ask in a minecraft mcp coding server
