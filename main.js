@@ -4,6 +4,9 @@ const app = express()
 const port = 3000
 
 const { usernames } = require('./usernames.json')
+//SETTINGS
+let inValidCapePath = __dirname + '/capes/invalidcape.png'
+
 
 console.log("██████╗░███████╗██╗░░░░░███████╗████████╗███████╗░█████╗░██████╗░████████╗██╗███████╗██╗███╗░░██╗███████╗░░░███╗░░██╗███████╗████████╗")
 console.log("██╔══██╗██╔════╝██║░░░░░██╔════╝╚══██╔══╝██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██║██╔════╝██║████╗░██║██╔════╝░░░████╗░██║██╔════╝╚══██╔══╝")
@@ -31,7 +34,7 @@ function capesys() {
       if(fs.existsSync(__dirname + '/capes/' + username + '.png')) {
         console.log(`sent ${username}'s cape!`)
       } else {
-        capepath = __dirname + '/capes/invalidcape.png'
+        capepath = inValidCapePath
         console.log(`invalid cape for ${username}!`)
       }
       app.get(`/${username}`, (req, res) => {
@@ -39,7 +42,7 @@ function capesys() {
           console.log(`sent ${username}'s cape, as a response`)
           capepath = __dirname + '/capes/' + username + '.png'
         } else {
-          capepath = __dirname + '/capes/invalidcape.png'
+          capepath = inValidCapePath
           console.log(`invalid cape for ${username}, sent Invaild cape instead!`)
         }
         res.sendFile(capepath)
