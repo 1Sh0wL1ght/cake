@@ -1,0 +1,15 @@
+{
+    "Users":
+    [
+        {
+            "username": "1Sh0wL1ght",
+            "Owns": [1,3],
+            "using": 3
+        },
+        {
+            "username": "Jordan",
+            "Owns": [2],
+            "using": 2
+        }
+    ]
+}
